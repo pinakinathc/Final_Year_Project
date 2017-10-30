@@ -1,7 +1,7 @@
 # Final_Year_Project
 This is the repository of final year project. This may include research based work. Please do not use results without proper citations.
 
-Authors:Dr. Dasgupta K, Hari A, Roy NG, Chowdhury PN
+Authors:Dr. Dasgupta K, Hari A,Dutta KK, Roy NG, Chowdhury PN.
 Institute:
 Kalyani Government Engineering College
 
