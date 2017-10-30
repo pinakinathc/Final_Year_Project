@@ -35,7 +35,7 @@ def plot_labels(labels):
 	plt.show()
 
 
-img, index = idx.create_index('../images/e0102_200-750eV.fits', 3)
+img, index = idx.create_index('../images/kepler.fits', 3)
 #idx.display_index(index)
 
 # img, index = idx_rbg.create_index('../images/circle.png',3)
