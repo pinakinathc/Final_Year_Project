@@ -1,13 +1,7 @@
 # Final_Year_Project
 This is the repository of final year project. This may include research based work. Please do not use results without proper citations.
 
-Authors:
-Dr. Kousik Dasgupta
-Amit Hari
-Kousik Kumar Dutta
-Namrata Gupta Roy
-Pinaki Nath Chowdhury
-
+Authors:Dr. Dasgupta K, Hari A, Roy NG, Chowdhury PN
 Institute:
 Kalyani Government Engineering College
 
