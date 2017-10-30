@@ -12,3 +12,11 @@ This image is then seperated into various clusters giving the following image.
 The following image the tries to show the boundary of various regions. It still needs some refinement.
 
 ![seperate clusters](images/figure_1.png?raw=true "seperate clusters")
+
+
+The credit for raw x-ray images:
+1. NASA/CXC/NCSU/K.Borkowski et al.
+2. NASA/CXC/NCSU/S. Reynolds et al.
+3. NASA/CXC/MIT/D. Dewey et al & NASA/CXC/SAO/J. DePasquale
+
+We are extremely thankful to the authorities and research teams to make these images available to be used in our study.
