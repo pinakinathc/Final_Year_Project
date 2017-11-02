@@ -2,6 +2,8 @@ import x_ray_kmeans as idx
 import rbg_kmeans as idx_rbg
 import matplotlib.pyplot as plt
 import numpy as np  
+import statistics
+from collections import Counter
 
 def boundary(index, i,j):
 	x, y = index.shape
@@ -33,16 +35,32 @@ def plot_labels(labels):
 
 	f.subplots_adjust(hspace=0.3)
 	plt.show()
+centroid=[]
+ind=[]
 
+for i in xrange(10):
+	img, index, cen = idx.create_index('../images/kepler.fits', 3)
+	del img
+	ind.append(index)
+	centroid.append(cen)
 
-img, index = idx.create_index('../images/kepler.fits', 3)
+count = Counter(map(tuple, centroid))
+mode=0
+a=0
+print centroid
+for i in centroid:
+	if count[tuple(i)]>mode:
+		index=ind[a]
+		mode=count[tuple(i)]
+	a=a+1
+print mode
 #idx.display_index(index)
 
 # img, index = idx_rbg.create_index('../images/circle.png',3)
 # idx_rbg.display_index(index)
 
 #explicitly delete img as it can be huge thereby occupying a large physical memory
-del img
+
 G = index
 x,y = index.shape
 index_max = int(index.max())
@@ -52,6 +70,6 @@ for i in xrange(x):
 	for j in xrange(y):
 		if not boundary(index, i, j):
 			continue
-		labels[int(index[i,j])].append([i,j])
+		labels[int(index[i,j])].append([i,j])	
 
 plot_labels(labels)
