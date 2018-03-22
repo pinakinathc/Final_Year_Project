@@ -5,7 +5,7 @@ Authors:Dr. Dasgupta K, Hari A,Dutta KK, Roy NG, Chowdhury PN.
 Institute:
 Kalyani Government Engineering College
 
-The following image is after using kMeans on the cloud dust of Kepler after supernova explosion:
+The following image is after using kMeans (self implemented, as the kMeans algorithm needed to be modified to work on N-dimensions instead of 2 dimensions, which various packages generally implement) on the cloud dust of Kepler after supernova explosion:
 ![Image after processing](images/output_kepler.png?raw=true "processed Kepler supernova cloud")
 
 This image is then seperated into various clusters giving the following image.
