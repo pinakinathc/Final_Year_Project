@@ -70,7 +70,7 @@ def create_index(filename, number_of_centroids):
 		centroid = new_centroid(img, index, len(centroid))
 	index = index + 1
 	#print '           70%'
-	return img, index 
+	return img, index, centroid
 
 def display_index(index):
 	# plt_x = np.empty((x*y,2))
